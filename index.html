@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY WEBSITE</title>
+
+  <style>
+     {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #000;
+      background-image: url("./images/pexels-raulling-34169628.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: white;
+      font-family: Arial, sans-serif;
+      min-height: 100px;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 18px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .logo img {
+      height: 28px;
+      width: auto;
+      display: block;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 28px;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      text-transform: lowercase;
+      transition: color 0.3s;
+    }
+    .nav-links a:hover {
+      color: #3b82f6;
+    }
+    .hero {
+      padding: 60px 40px 30px;
+      max-width: 600px;
+    }
+    .hero h1 {
+      font-size: 42px;
+      font-weight: 400;
+      line-height: 1.25;
+      margin-bottom: 30px;
+    }
+    .hero-buttons {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 50px;
+    }
+    .btn {
+      padding: 12px 22px;
+      border: 1px solid white;
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      background: transparent;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: white;
+      color: black;
+    }
+    .ImageA {
+      position: relative;
+      width: 90%;
+      max-width: 700px;
+      margin: 0 auto 40px;
+    }
+
+    .main-photo {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
+
+    .play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 28px;
+    }
+    .logos {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      padding: 20px 40px 60px;
+      font-size: 12px;
+      color: #aaa;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="logo">
+      <img src="./images/web.logo.jpeg" alt="Logo">
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.home">home</a></li>
+      <li><a href="index.about us">about us</a></li>
+      <li><a href="index.cases studies">cases studies</a></li>
+      <li><a href="index.careers">careers</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href=contact.html">contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>We design<br>experiences that<br>move businesses to<br>the future.</h1>
+
+    <div class="hero-buttons">
+      <a href="https://youtube.com/shorts/J4XIMhD9Pf4" class="btn" target="_blank">Play showreel →</a>
+      <a href="#" class="btn">About us</a>
+    </div>
+  </section>
+
+  <div class="ImageA">
+    <img src="./images/image 2.jpeg" alt="Showreel" class="main-photo">
+    <div class="play">▶️</div>
+  </div>
+
+  <ul class="logos">
+    <li>Triple Whale</li>
+    <li>Major Heads</li>
+    <li>Trove Mate</li>
+    <li>Soclly</li>
+    <li>Handcash</li>
+    <li>Vera</li>
+    <li>Foundry</li>
+    <li>Flywallet</li>
+    <li>Ascendex</li>
+    <li>Finnet</li>
+    <li>Nycrypto</li>
+    <li>Dolphin</li>
+  </ul>
+ <i><p>Created by Delight</p></i>
+
+</body>
+</html>
