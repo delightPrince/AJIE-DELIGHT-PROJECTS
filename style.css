@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #17233d;
+}
+
+
+/* Navigation */
+
+.navbar {
+    background-color: #101b32;
+    padding: 18px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-icon {
+    background-color: #176bff;
+    padding: 5px 11px;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+.nav-link {
+    color: white;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: #20c7d9;
+}
+
+.login-btn {
+    color: white;
+    border: 1px solid #20c7d9;
+}
+
+
+/* Buttons */
+
+.start-btn {
+    background-color: #176bff;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 6px;
+}
+
+.start-btn:hover {
+    background-color: #0c54d6;
+    color: white;
+}
+
+.outline-btn {
+    border: 1px solid #20c7d9;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 6px;
+}
+
+
+/* Hero Section */
+
+.hero-section {
+    background-color: #101b32;
+    color: white;
+    padding: 100px 0;
+}
+
+.hero-label {
+    color: #20c7d9;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.hero-section h1 span {
+    color: #20c7d9;
+}
+
+.hero-section p {
+    color: #c4cede;
+    line-height: 1.8;
+    max-width: 550px;
+}
+
+.hero-note {
+    margin-top: 35px;
+    font-size: 13px;
+    color: #c4cede;
+}
+
+.hero-note span {
+    color: #20c7d9;
+    margin-left: 10px;
+}
+
+
+/* Security Card */
+
+.security-card {
+    background-color: #1a2a48;
+    padding: 35px;
+    border-radius: 15px;
+    border: 1px solid #344968;
+}
+
+.security-circle {
+    background-color: #176bff;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.security-card h3 {
+    font-size: 24px;
+}
+
+.security-card p {
+    color: #c4cede;
+}
+
+.security-line {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #344968;
+    padding: 15px 0;
+    font-size: 13px;
+}
+
+
+/* Services */
+
+.services-section {
+    padding: 90px 0;
+    background-color: #f5f7fc;
+}
+
+.section-heading span,
+.about-section span,
+.experts-section span {
+    color: #176bff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.section-heading h2,
+.about-section h2,
+.experts-section h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.section-heading p {
+    color: #68758b;
+}
+
+.service-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    background-color: #e8f0ff;
+    color: #176bff;
+    width: 55px;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.service-card p {
+    color: #68758b;
+    line-height: 1.7;
+}
+
+.service-card a {
+    color: #176bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* About */
+
+.about-section {
+    padding: 90px 0;
+}
+
+.about-section p,
+.experts-section p {
+    max-width: 650px;
+    margin: 20px auto;
+    color: #68758b;
+    line-height: 1.8;
+}
+
+
+/* Experts */
+
+.experts-section {
+    background-color: #f5f7fc;
+    padding: 90px 0;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #101b32;
+    color: white;
+    padding: 45px 0;
+}
+
+footer p {
+    color: #c4cede;
+    margin-top: 10px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 65px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 36px;
+    }
+
+    .section-heading h2,
+    .about-section h2,
+    .experts-section h2 {
+        font-size: 27px;
+    }
+
+    .hero-note {
+        line-height: 2;
+    }
+}

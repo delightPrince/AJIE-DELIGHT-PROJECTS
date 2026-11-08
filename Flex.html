@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Shopping Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-image: url(./images/image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .boxes {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    .box {
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        flex: 1;
+        gap: 10px;
+    }
+
+    .icon {
+        background: #1d0909;
+        color: rgb(255, 243, 255);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 27px;
+        flex-shrink: 0;
+    }
+
+    .box h3 {
+        font-size: 17px;
+    }
+
+    .box p {
+        font-size: 14px;
+        color: #555;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .item {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .picture {
+        height: 190px;
+        width: 100%;
+        background: #f1f1f1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .picture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    @media(max-width: 380px) {
+        .products {
+            grid-template-columns: 1fr;
+        }
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Why Choose Us?</h2>
+
+    <div class="boxes">
+
+        <div class="box">
+            <div class="icon">🚚</div>
+            <div>
+                <h3>Free Shipping</h3>
+                <p>Free delivery on all orders over $50.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icon">☆</div>
+            <div>
+                <h3>Best Quality</h3>
+                <p>We provide the best quality products for you.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icon">🎧</div>
+            <div>
+                <h3>24/7 Support</h3>
+                <p>We are here to help you anytime, anywhere.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <h2>Popular Products</h2>
+
+    <div class="products">
+
+        <div class="item">
+            <span class="sale">SALE</span>
+
+            <div class="picture">
+                <img src="./images/madeinegypt-ca-l0zsWxQBjvM-unsplash.jpg" alt="Stylish Backpack">
+            </div>
+
+            <div class="info">
+                <h3>Stylish Backpack</h3>
+                <p class="price">$49.99 <span class="old">$69.99</span></p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <span class="sale">SALE</span>
+
+            <div class="picture">
+                <img src="./images/jeff-tumale-SD9Jyl1xNQ4-unsplash.jpg" alt="White Sneakers">
+            </div>
+
+            <div class="info">
+                <h3>White Sneakers</h3>
+                <p class="price">$59.99 <span class="old">$80.99</span></p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <span class="sale">SALE</span>
+
+            <div class="picture">
+                <img src="./images/marmi-sica-FF2ZLo_rojE-unsplash.jpg" alt="Classic Watch">
+            </div>
+
+            <div class="info">
+                <h3>Classic Watch</h3>
+                <p class="price">$79.99 <span class="old">$129.99</span></p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+
+        <div class="item">
+            <span class="sale">SALE</span>
+
+            <div class="picture">
+                <img src="./images/luke-peterson-lUMj2Zv5HUE-unsplash.jpg" alt="Wireless Headphones">
+            </div>
+
+            <div class="info">
+                <h3>Wireless Headphone</h3>
+                <p class="price">$39.99 <span class="old">$69.99</span></p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
